@@ -1,0 +1,13 @@
+uuid: 7ca2bea6-8445-4d6f-a590-74e6032e5f56
+langcode: de
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
+id: media_publish_action
+label: 'Medien veröffentlichen'
+type: media
+plugin: 'entity:publish_action:media'
+configuration: {  }
