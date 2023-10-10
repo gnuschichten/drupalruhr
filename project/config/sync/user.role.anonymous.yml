@@ -1,0 +1,14 @@
+uuid: f8bcfb4d-64a6-4553-a7a6-63e7efa7b799
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: Gast
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'

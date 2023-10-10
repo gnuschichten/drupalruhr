@@ -1,0 +1,13 @@
+uuid: 914a6cc9-90da-4803-aff3-51f599944de7
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
+id: user_cancel_user_action
+label: 'Die ausgewählten Benutzerkonten löschen'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }
