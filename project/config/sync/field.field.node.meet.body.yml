@@ -1,0 +1,24 @@
+uuid: 2c05fba4-10eb-4f4c-b94e-6bb3f338737f
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.meet
+  module:
+    - text
+id: node.meet.body
+field_name: body
+entity_type: node
+bundle: meet
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
