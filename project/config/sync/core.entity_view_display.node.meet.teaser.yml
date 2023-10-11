@@ -1,0 +1,31 @@
+uuid: 8cd4e2c8-f0fa-46ca-b3b6-206d79a22cd5
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.meet.body
+    - node.type.meet
+  module:
+    - text
+    - user
+id: node.meet.teaser
+targetEntityType: node
+bundle: meet
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

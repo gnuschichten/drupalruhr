@@ -19,6 +19,11 @@
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
+        "drupal/gin": "^3.0@RC",
+        "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/gin_type_tray": "^1.0@beta",
+        "drupal/paragraphs": "^1.16",
+        "drupal/pathauto": "^1.12",
         "drush/drush": "^12.2"
     },
     "conflict": {

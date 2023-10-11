@@ -1,0 +1,11 @@
+uuid: 035778a2-bfc8-477c-a3e3-37b10d4cbaea
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.meet
+id: node.meet
+target_entity_type_id: node
+target_bundle: meet
+default_langcode: site_default
+language_alterable: false

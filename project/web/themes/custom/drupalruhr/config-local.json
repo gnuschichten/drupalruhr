@@ -1,0 +1,6 @@
+{
+  "name": "drupalruhr theme",
+  "description": "drupalruhr theme file for browserSnyc stream support",
+  "browserSyncProxy" : "http://drupalruhr.local",
+  "browserSyncPort" : 3000
+}
