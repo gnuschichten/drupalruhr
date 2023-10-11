@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      dist/css/drupalruhr.css: {}
+  js:
+    dist/drupalruhr.js: {}

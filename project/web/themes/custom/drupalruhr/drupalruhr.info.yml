@@ -1,0 +1,17 @@
+name: 'Drupal User Group Ruhr'
+type: theme
+description: 'Custom theme drupalruhr.'
+core_version_requirement: '^8.9 || ^9 || ^10'
+'base theme': stable9
+libraries:
+  - drupalruhr/global-styling
+regions:
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_search: 'Navigation search region'
+  nav_additional: 'Additional navigation region'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
