@@ -24,6 +24,7 @@
         "drupal/gin_type_tray": "^1.0@beta",
         "drupal/paragraphs": "^1.16",
         "drupal/pathauto": "^1.12",
+        "drupal/tome": "^1.11",
         "drush/drush": "^12.2"
     },
     "conflict": {

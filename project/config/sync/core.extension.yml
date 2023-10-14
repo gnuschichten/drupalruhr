@@ -31,6 +31,8 @@ module:
   system: 0
   text: 0
   token: 0
+  tome_base: 0
+  tome_static: 0
   toolbar: 0
   update: 0
   user: 0
@@ -43,4 +45,6 @@ theme:
   stark: 0
   claro: 0
   gin: 0
+  stable9: 0
+  drupalruhr: 0
 profile: minimal
