@@ -1,0 +1,24 @@
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+ul.links.inline {
+  list-style-type: none;
+  width: max-content;
+  position: relative;
+  padding-left: 0;
+
+  &.link__node {
+    margin: 2rem 0;
+
+    .read-more a {
+      @extend %btn-primary;
+    }
+  }
+}

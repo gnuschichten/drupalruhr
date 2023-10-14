@@ -1,0 +1,22 @@
+uuid: 796cdbd0-5d52-4b54-916f-18b7aa620e85
+langcode: de
+status: true
+dependencies:
+  theme:
+    - drupalruhr
+_core:
+  default_config_hash: T0wbI6qVdThbbIqXDZFg_1VZ3_ittXBdEoUH7d7ux_E
+id: drupalruhr_local_tasks
+theme: drupalruhr
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

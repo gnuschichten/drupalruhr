@@ -122,3 +122,6 @@ upstream/web/
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore tome static files
+/html

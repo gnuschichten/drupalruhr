@@ -1,0 +1,25 @@
+uuid: 3b5c6834-1189-46b5-9fac-7a826f8edd4d
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - drupalruhr
+id: drupalruhr_hauptnavigation
+theme: drupalruhr
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: Hauptnavigation
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -9,7 +9,7 @@ regions:
   nav_branding: 'Navigation branding region'
   nav_main: 'Main navigation region'
   nav_search: 'Navigation search region'
-  nav_additional: 'Additional navigation region'
+  nav_top: 'Top navigation region'
   breadcrumb: Breadcrumbs
   content: 'Main content'
   sidebar_first: 'Sidebar first'

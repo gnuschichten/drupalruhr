@@ -1,0 +1,26 @@
+.header {
+  background-color: #1b1b1d;
+
+  &__bottom {
+    @extend %max-width;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__branding {
+    display: flex;
+
+    .site-name {
+      align-self: center;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-decoration: none;
+
+      @media screen and (max-width: 768px) {
+       display: none;
+      }
+    }
+  }
+}

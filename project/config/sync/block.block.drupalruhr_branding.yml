@@ -1,0 +1,25 @@
+uuid: 60a2acc1-dba5-4692-a804-dbfdfcfb5527
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalruhr
+_core:
+  default_config_hash: sG8t_FghbUscJ-GrnQ8zs_vx5YM4bJCfntrK-J5HcAY
+id: drupalruhr_branding
+theme: drupalruhr
+region: nav_branding
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Branding der Website'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 7fc10bf2-73b1-4367-803f-516389853c06
+langcode: de
+status: false
+dependencies:
+  config:
+    - system.menu.admin
+  module:
+    - system
+  theme:
+    - drupalruhr
+_core:
+  default_config_hash: 5MfnyzXbzrDa_OJuFfZfpiBYkMiuRp4mk4GM7HYc8eM
+id: drupalruhr_admin
+theme: drupalruhr
+region: content
+weight: 2
+provider: null
+plugin: 'system_menu_block:admin'
+settings:
+  id: 'system_menu_block:admin'
+  label: Verwaltung
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: d41722fc-d6c2-4fcc-9e41-e19a7a43b183
+langcode: de
+status: true
+dependencies:
+  theme:
+    - drupalruhr
+_core:
+  default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
+id: drupalruhr_local_actions
+theme: drupalruhr
+region: content
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primäre Verwaltungsaktionen'
+  label_display: '0'
+  provider: core
+visibility: {  }

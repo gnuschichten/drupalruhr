@@ -1,0 +1,22 @@
+uuid: ac28baa2-189e-4b57-8994-7044fd6546ce
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+id: pfad_standard_seite
+label: 'Pfad Standard Seite'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  0708e834-4411-449a-a912-d62044dde8f3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 0708e834-4411-449a-a912-d62044dde8f3
+    context_mapping:
+      node: node
+    bundles:
+      default_page: default_page
+selection_logic: and
+weight: -5
+relationships: {  }

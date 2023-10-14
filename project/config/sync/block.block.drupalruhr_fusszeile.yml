@@ -1,0 +1,25 @@
+uuid: 7d64fa79-7eb6-4609-bb60-883d4643b7ac
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - drupalruhr
+id: drupalruhr_fusszeile
+theme: drupalruhr
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Fußzeile
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

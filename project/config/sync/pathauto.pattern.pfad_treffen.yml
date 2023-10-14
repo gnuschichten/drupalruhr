@@ -1,0 +1,22 @@
+uuid: 026c26ac-8d9b-43a6-ba80-4aa8ca50aa62
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+id: pfad_treffen
+label: 'Pfad Treffen'
+type: 'canonical_entities:node'
+pattern: 'treffen/[node:title]'
+selection_criteria:
+  0cd93b3c-8b3d-4b10-9eb9-e0e3a4b889b6:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 0cd93b3c-8b3d-4b10-9eb9-e0e3a4b889b6
+    context_mapping:
+      node: node
+    bundles:
+      meet: meet
+selection_logic: and
+weight: -5
+relationships: {  }

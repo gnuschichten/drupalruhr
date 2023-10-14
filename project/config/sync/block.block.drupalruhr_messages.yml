@@ -1,0 +1,22 @@
+uuid: b1ed24b6-a7a9-4a23-a37a-b13c3b3b22e3
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalruhr
+_core:
+  default_config_hash: aeqlWs7HwctZeZC7ADcbxfqehJzBRfZKmuZz3DsH3_4
+id: drupalruhr_messages
+theme: drupalruhr
+region: content
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Status-Nachrichten
+  label_display: '0'
+  provider: system
+visibility: {  }
