@@ -1,0 +1,29 @@
+uuid: 90fda539-59bd-42ed-b3ac-86a2aedb71bf
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media.type.bild
+    - node.type.meet
+id: node.meet.field_media
+field_name: field_media
+entity_type: node
+bundle: meet
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      bild: bild
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

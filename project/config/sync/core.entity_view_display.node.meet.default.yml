@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.meet.body
+    - field.field.node.meet.field_media
     - node.type.meet
   module:
     - text
@@ -19,6 +20,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
     region: content
   links:
     settings: {  }

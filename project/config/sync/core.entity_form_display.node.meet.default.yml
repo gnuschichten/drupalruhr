@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.meet.body
+    - field.field.node.meet.field_media
     - node.type.meet
   module:
+    - media_library
     - path
     - text
 id: node.meet.default
@@ -28,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_media:
+    type: media_library_widget
+    weight: 122
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   langcode:
     type: language_select

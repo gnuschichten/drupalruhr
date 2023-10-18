@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.meet.body
+    - field.field.node.meet.field_media
     - node.type.meet
   module:
     - text
@@ -22,10 +23,19 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden:
   langcode: true

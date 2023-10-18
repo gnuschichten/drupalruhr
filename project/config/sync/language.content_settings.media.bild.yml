@@ -1,0 +1,11 @@
+uuid: f15e0df9-e34a-47a4-8dcd-9af012fd6731
+langcode: de
+status: true
+dependencies:
+  config:
+    - media.type.bild
+id: media.bild
+target_entity_type_id: media
+target_bundle: bild
+default_langcode: site_default
+language_alterable: false

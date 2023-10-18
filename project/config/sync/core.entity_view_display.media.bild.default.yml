@@ -1,0 +1,32 @@
+uuid: 6e1d61fa-f4f9-4c49-a85e-32db1dede500
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.media.bild.field_media_image
+    - image.style.large
+    - media.type.bild
+  module:
+    - image
+id: media.bild.default
+targetEntityType: media
+bundle: bild
+mode: default
+content:
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
