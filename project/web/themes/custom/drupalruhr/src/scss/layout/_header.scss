@@ -1,5 +1,5 @@
 .header {
-  background-color: #1b1b1d;
+  background-color: $black;
 
   &__bottom {
     @extend %max-width;
@@ -13,12 +13,12 @@
 
     .site-name {
       align-self: center;
-      color: white;
+      color: $white;
       font-size: 1.25rem;
       font-weight: bold;
       text-decoration: none;
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: $mobile-breakpoint) {
        display: none;
       }
     }

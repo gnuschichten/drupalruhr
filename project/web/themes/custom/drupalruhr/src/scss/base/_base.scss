@@ -2,16 +2,16 @@ body {
   position: relative;
   margin: 0;
   font-family: "system-ui";
-  background-color: #1b1b1d;
+  background-color: $black;
   color: white;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $mobile-breakpoint) {
     &:before {
       content: "";
       width: 50vw;
       height: 100%;
       min-height: 100vh;
-      background-color: #F5F5F5;
+      background-color: $light;
       z-index: -1;
       position: absolute;
       overflow: hidden;

@@ -1,3 +1,22 @@
-article {
-  margin-bottom: 4rem;
+.front {
+  &-content {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $mobile-breakpoint) {
+      flex-direction: row;
+    }
+  }
+  &-teaser {
+    margin-bottom: 4rem;
+  }
+
+  &-media {
+    border-left: 18px solid $black;
+    border-right: 18px solid $black;
+
+    @media screen and (min-width: $mobile-breakpoint) {
+      margin-left: 1.5rem;
+    }
+  }
 }

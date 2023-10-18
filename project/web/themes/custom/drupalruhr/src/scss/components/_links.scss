@@ -1,5 +1,5 @@
 a {
-  color: white;
+  color: $white;
   text-decoration: none;
 
   &:hover,
@@ -16,9 +16,13 @@ ul.links.inline {
 
   &.link__node {
     margin: 2rem 0;
+  }
+}
 
-    .read-more a {
-      @extend %btn-primary;
-    }
+.read-more {
+  margin: 2rem 0;
+
+  a {
+    @extend %btn-primary;
   }
 }
