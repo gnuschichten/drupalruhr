@@ -1,0 +1,39 @@
+.meet {
+  &-content {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $mobile-breakpoint) {
+      flex-direction: row;
+    }
+  }
+
+  &-media {
+    max-width: max-content;
+
+    @media screen and (min-width: $mobile-breakpoint) {
+      margin-left: 1.5rem;
+    }
+  }
+
+  &-body {
+    @media screen and (min-width: $mobile-breakpoint) {
+      padding-left: 2rem;
+    }
+  }
+}
+
+.page-node-type-meet {
+  #block-drupalruhr-page-title {
+    margin: 0 -2rem 3rem 0;
+    padding: 0 2rem;
+    background-color: #1b1b1d;
+    color: #fff;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+
+    h1 {
+      padding: 1rem 0;
+    }
+  }
+}

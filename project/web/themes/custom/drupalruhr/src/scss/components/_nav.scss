@@ -1,5 +1,6 @@
 .nav__main {
   justify-content: space-between;
+  width: 100%;
 
   li a {
     color: $white;
@@ -36,7 +37,6 @@
 .nav__main,
 .nav__footer {
   display: flex;
-  width: 100%;
   list-style-type: none;
 
   li a {

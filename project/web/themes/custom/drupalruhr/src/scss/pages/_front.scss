@@ -1,7 +1,7 @@
 .front {
   &-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     @media screen and (min-width: $mobile-breakpoint) {
       flex-direction: row;
@@ -14,6 +14,8 @@
   &-media {
     border-left: 18px solid $black;
     border-right: 18px solid $black;
+    height: max-content;
+    max-width: max-content;
 
     @media screen and (min-width: $mobile-breakpoint) {
       margin-left: 1.5rem;

@@ -2,7 +2,7 @@ name: 'Drupal User Group Ruhr'
 type: theme
 description: 'Custom theme drupalruhr.'
 core_version_requirement: '^8.9 || ^9 || ^10'
-'base theme': stable9
+base theme: false
 libraries:
   - drupalruhr/global-styling
 regions:

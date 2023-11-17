@@ -6,8 +6,9 @@
   border-radius: 0.5rem;
   padding: 2rem;
   margin-top: 2rem;
+  width: 75%;
 
-  @media screen and (max-width: $mobile-breakpoint) {
-    width: 60%;
+  @media screen and (min-width: $mobile-breakpoint) {
+    //width: 100%;
   }
 }
